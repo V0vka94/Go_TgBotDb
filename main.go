@@ -21,7 +21,7 @@ var (
 
 func init() {
 	// принимаем на входе флаг -telegrambottoken
-	flag.StringVar(&telegramBotToken, "telegrambottoken", "6315511369:AAF_Ndq-bLCisbpQ33AYXVm9Vx1xqJFX1FQ", "Telegram Bot Token")
+	flag.StringVar(&telegramBotToken, "telegrambottoken", "Your_API_Token", "Telegram Bot Token")
 	flag.Parse()
 
 	// без него не запускаемся
